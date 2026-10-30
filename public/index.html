@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10090d">
+<meta name="description" content="A little universe, made for Muhammad.">
+<title>Through My Eyes — for Muhammad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="grain"></div>
+<div id="intro" class="intro">
+  <div class="intro-orbit"><span></span><span></span><span></span></div>
+  <p class="eyebrow">A PRIVATE LITTLE UNIVERSE</p>
+  <h1>Somewhere in this world,<br>there is someone who<br><em>sees you differently.</em></h1>
+  <p class="intro-copy">And I wanted you to see what I see.</p>
+  <button id="enterBtn" class="primary-btn">Come in, Muhammad <span>↗</span></button>
+  <p class="signature">made with love by your monkie wonkie</p>
+</div>
+<div id="app" class="app hidden">
+  <header class="topbar">
+    <a class="brand" href="#" id="homeBtn"><span class="brand-mark">♡</span><span>THROUGH <i>MY EYES</i></span></a>
+    <div class="top-actions"><span class="for-him">MADE FOR MUHAMMAD</span><button id="soundBtn" class="icon-btn" aria-label="Toggle sound">♫</button><button id="resetBtn" class="icon-btn" aria-label="Reset progress">↺</button></div>
+  </header>
+  <main>
+    <section id="home" class="view active">
+      <div class="welcome">
+        <p class="eyebrow">YOU MADE IT IN</p>
+        <h2>Hey, <em>Muhammad.</em></h2>
+        <p class="welcome-copy">So, I made you something. It's not a game (well, not entirely). It's a little place where I've put some of the things I don't think I tell you enough.</p>
+        <p class="welcome-sign">Take your time, monkie wonkie. <span>♡</span></p>
+      </div>
+      <div class="section-label"><span>YOUR LITTLE UNIVERSE</span><span id="progressText">0 / 11 DISCOVERED</span></div>
+      <div id="portalGrid" class="portal-grid"></div>
+      <div class="home-footer">no rush. there's no finish line here. <span>✦</span></div>
+    </section>
+    <section id="room" class="view">
+      <button class="back-btn" data-home>← BACK TO YOUR UNIVERSE</button>
+      <div id="roomContent"></div>
+    </section>
+  </main>
+  <footer class="app-footer"><span>THROUGH MY EYES</span><span>made for one very particular human ♡</span></footer>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="/app.js" defer></script>
+</body></html>

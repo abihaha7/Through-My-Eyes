@@ -1,0 +1,23 @@
+THROUGH MY EYES — PERSONALIZATION GUIDE
+
+Open /app.js and edit the CONTENT object near the top. This is the only place you need to change the personal writing.
+
+1. reasons: Add or replace the reasons you love Muhammad. Keep each entry as a quoted sentence, separated by commas.
+2. mirror: Each item is [a short heading, the message shown when he chooses that reflection].
+3. observations: Add real details you notice about him. These should be specific to Muhammad, not generic compliments.
+4. wishes: Add the things you genuinely wish for him.
+5. future: Add possible experiences you would love to share. Keep them hopeful, not promises.
+6. emergency: Edit the messages for hug, hard day, miss, insecure, laugh and proud.
+7. finalLetter: Replace the sample letter with your own words whenever you're ready.
+
+VOICE NOTE:
+Open Your Personal Radio, choose "Add your voice note later", and select an audio recording from your device. The selected recording plays in that browser session. It is not uploaded to a server or permanently stored by the app.
+
+PROGRESS:
+The app remembers discovered rooms in the browser's localStorage. The reset button clears this progress on the current device.
+
+SHARING:
+This project is currently private at the hosting-platform level. To let Muhammad open the permanent URL without a Hatchable account, change the project's visibility in Hatchable Settings after deployment. A temporary preview link can be used for a quick first look.
+
+IMPORTANT:
+The starter copy is intentionally editable. Replace any line that doesn't sound like you. The most meaningful version will use your actual inside jokes, memories, and observations.
